@@ -81,10 +81,10 @@ function fetchBookmarks() {
     } else {
         // create bookmarks array in localStorage if there is no bookmarks key in localStorage
         bookmarks = [
-            {
-                name: 'google',
-                url: 'https://google.com',
-            },
+//            {
+//                name: 'google',
+//                url: 'https://google.com',
+//            },
         ];
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
     }
